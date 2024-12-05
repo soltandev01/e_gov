@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <section>
+        <div class="header-container">
+            <div class="header-content">
+                <div class="header-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" class="text-xl iconify iconify--mdi"><path fill="currentColor" d="M12.74 5.47c2.36 1.03 3.61 3.56 3.18 5.99A6.002 6.002 0 0 1 18 16v.17a3 3 0 0 1 1-.17a3 3 0 0 1 3 3a3 3 0 0 1-3 3H6a4 4 0 0 1-4-4a4 4 0 0 1 4-4h.27C5 12.45 4.6 10.24 5.5 8.26a5.49 5.49 0 0 1 7.24-2.79m-.81 1.83c-1.77-.8-3.84.01-4.62 1.77c-.46 1.02-.38 2.15.1 3.06A5.988 5.988 0 0 1 12 10c.7 0 1.38.12 2 .34a3.506 3.506 0 0 0-2.07-3.04m1.62-3.66c-.55-.24-1.1-.41-1.67-.52l2.49-1.3l.9 2.89a7.67 7.67 0 0 0-1.72-1.07m-7.46.8c-.49.35-.92.75-1.29 1.19l.11-2.81l2.96.68c-.62.21-1.22.53-1.78.94M18 9.71c-.09-.59-.22-1.16-.41-1.71l2.38 1.5l-2.05 2.23c.11-.65.13-1.33.08-2.02M3.04 11.3c.07.6.2 1.17.39 1.7l-2.37-1.5L3.1 9.28c-.1.65-.13 1.33-.06 2.02M19 18h-3v-2a4 4 0 0 0-4-4a4 4 0 0 0-4 4H6a2 2 0 0 0-2 2a2 2 0 0 0 2 2h13a1 1 0 0 0 1-1a1 1 0 0 0-1-1Z"></path></svg>
+                    <!-- <img class="weather-icon" src="./images/weather-icon.png" alt="weather-icon"> -->
+                    <span class="weather-degree">+22°C</span>
+                    <span class="weather-adress">Aşgabat</span>
+                </div>
+                <!-- <div class="countries-banknotes">
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span> ABŞ-NYŇ DOLLARY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>3.5</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span> ARAP DIRHEMI</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>0.953</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span> AWSTRALIÝA DOLLARY / ABŞ DOLL.</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>2.2799</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span> AZERBAÝJAN MANADY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>2.0649</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  BELARUS RUBLY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>1.0716</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  ÇEH KRONASY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>0.1496</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  DAT KRONASY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>0.5058</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  ERMENI DRAMY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>100 "</span>
+                            <span>0.8685</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  EÝRAN RIALY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>1000 "</span>
+                            <span>0.0833</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span> FUNT STERLING / ABŞ-NYŇ DOLLARY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>4.4181</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  GAZAK TEŇŇESI</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>100 "</span>
+                            <span>0.783</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  GONKONG DOLLARY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>0.4476</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  GÜNORTA KOREÝA WONASY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>1000 "</span>
+                            <span>2.6327</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  GYRGYZ SOMY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>100 "</span>
+                            <span>3.3193</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  HINDI RUPIÝASY</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>100 "</span>
+                            <span>4.2167</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                    <div class="banknote-item">
+                        <div class="banknote-items">
+                            <span>  HYTAÝ ÝUANY (ÝUAN RENMENBI)</span>
+                            <span>/</span>
+                            <span>TMT</span>
+                            <span>0.4866</span>
+                        </div>
+                        <div class="rounded-full"></div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="gov-items">
+            <div class="gov-content">
+                <div class="gov-first_wrapper">
+                    <img class="gov-item-logo" src="./images/gov-item-logo.svg" alt="gov-item-logo">
+                    <span class="gov-first_wrapper-item-first">Услуги</span>
+                    <span class="gov-first_wrapper-item-second">Помощь</span>
+                </div>
+                <div class="gov-second_wrapper">
+                    <span class="gov-second_wrapper-item-first">Войти</span>
+                    <div class="gov-second_wrapper-item-second">
+                        <span class="gov-second_wrapper-item-second-name">Русский</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="0.63em" height="1em" viewBox="0 0 320 512" class="transition ease-in iconify iconify--fa6-solid"><path fill="currentColor" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9S301 191.9 288 191.9L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="state-service_wrapper">
+            <div class="state-service_content">
+                <div class="state-service_item">
+                    <span class="state-service_item-name">Портал<br>Государственных<br>услуг</span>
+                    <div class="state-service_input">
+                        <img class="service-input-image" src="data:image/svg+xml;base64,PHN2ZyBpZD0iR3JvdXBfMTE4IiBkYXRhLW5hbWU9Ikdyb3VwIDExOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTguMTgyIiBoZWlnaHQ9IjE4LjUzOCIgdmlld0JveD0iMCAwIDE4LjE4MiAxOC41MzgiPg0KICA8ZyBpZD0iRWxsaXBzZV8xIiBkYXRhLW5hbWU9IkVsbGlwc2UgMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjQxMjY0IiBzdHJva2Utd2lkdGg9IjIiPg0KICAgIDxlbGxpcHNlIGN4PSI4LjA3IiBjeT0iOC4wNyIgcng9IjguMDciIHJ5PSI4LjA3IiBzdHJva2U9Im5vbmUiLz4NCiAgICA8ZWxsaXBzZSBjeD0iOC4wNyIgY3k9IjguMDciIHJ4PSI3LjA3IiByeT0iNy4wNyIgZmlsbD0ibm9uZSIvPg0KICA8L2c+DQogIDxsaW5lIGlkPSJMaW5lXzEiIGRhdGEtbmFtZT0iTGluZSAxIiB4Mj0iNC4wODEiIHkyPSI0LjEzNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTMuMzkgMTMuNykiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0MTI2NCIgc3Ryb2tlLXdpZHRoPSIyIi8+DQo8L3N2Zz4NCg==" alt="" class="search-service_input-logo">
+                        <input class="service-input" type="text">
+                        <button class="state-service_input-btn">
+                            <span>Поиск</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="state-service_second-item">
+                    <img src="./images/animate-img.svg" alt="state-service-item-animation">
+                    <!-- <img src="./images/state-service-animation-image.PNG" alt="state-service-animation-image"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="menu-list">
+            <div class="menu-list-content">
+                <div class="menu-list_parts">
+                    <div class="menu-list-first_part">
+                        <span>Все разделы</span>
+                    </div>
+                    <div class="menu-list-second_part">
+                        <span>Онлайн услуги</span>
+                    </div>
+                    <div class="menu-list-last_part">
+                        <span>Информация</span>
+                    </div>
+                </div>
+                <div class="menu-list_items">
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/service-kommunication.svg" alt="service-kommunication">
+                        <span class="menu-list_item-title">Услуги связи</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/education-system.svg" alt="education-system">
+                        <span class="menu-list_item-title">Система образования</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/health-system.svg" alt="health-system">
+                        <span class="menu-list_item-title">Система<br>здравоохранения</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/registration-system.svg" alt="registration-system">
+                        <span class="menu-list_item-title">Оформления паспорта</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/transport.svg" alt="transport">
+                        <span class="menu-list_item-title">Транспорт,логистика<br>и таможенная служба</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/family-kids.svg" alt="family-kids">
+                        <span class="menu-list_item-title">Семья и дети</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/public-utilities.svg" alt="public-utilities">
+                        <span class="menu-list_item-title">Коммунальные услуги</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/get-work.svg" alt="get-work">
+                        <span class="menu-list_item-title">Трудоустройства</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/economic-bank.svg" alt="economic-bank">
+                        <span class="menu-list_item-title">Экономическая,<br>банковская и<br>финансовая система</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/legal-assistance.svg" alt="legal-assistance">
+                        <span class="menu-list_item-title">Правовая помощь</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/advertising-service.svg" alt="advertising-service">
+                        <span class="menu-list_item-title">Рекламные услуги</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/license.svg" alt="license">
+                        <span class="menu-list_item-title">Лицензия</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/sport-and-culture.svg" alt="sport-and-culture">
+                        <span class="menu-list_item-title">Спорт и культура</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/state-restr.svg" alt="state-restr">
+                        <span class="menu-list_item-title">Государственный<br>реестр национальных<br>электронных...</span>
+                    </div>
+                    <div class="menu-list_first-item">
+                        <img class="menu-list_item-image" src="./images/online-service.svg" alt="online-service">
+                        <span class="menu-list_item-title">Онлайн услуги<br>судебный власти</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="city-subtitle">
+            <div class="city-subtitle-content">
+                <div class="city-subtitle-list">
+                    <div class="city-subtitle-list_name">
+                        <span>Портал онлайн услуг города Аркадаг</span>
+                    </div>
+                    <div class="city-subtitle_button">
+                        <button class="city-subtitle_btn">Воспользоваться услугами</button>
+                    </div>
+                </div>
+                <img class="city-image" src="./images/arkadag-city.png" alt="arkadag-city">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="web-sites_items">
+            <div class="web-sites_content">
+                <div class="web-sites_title">
+                    <span class="web-sites_title-name">Государственные веб-сайты</span>
+                </div>
+                <div class="web-sites_items-lists">
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/ministry-of-education.png" alt="tm-communication">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">Агенство "Туркменарагатнашык"</span>
+                            <span class="web-sites_IP-adress">https://www.mincom.gov.tm</span>
+                        </div>
+                    </div>
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/tm-telecom.png" alt="tm-telecom">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">КЭ "Туркментелеком"</span>
+                            <span class="web-sites_IP-adress">https://telecom.tm</span>
+                        </div>
+                    </div>
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/ministry-of-justice.png" alt="ministry-of-justice">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">Министерство Адалат<br>Туркменистана</span>
+                            <span class="web-sites_IP-adress">https://www.minjust.gov.tm</span>
+                        </div>
+                    </div>
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/tmcell.png" alt="tmcell">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">АОЗТ "Алтын Асыр"</span>
+                            <span class="web-sites_IP-adress">https://tmcell.tm</span>
+                        </div>
+                    </div>
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/ministry-of-foreign-affairs.png" alt="ministry-of-foreign-affairs">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">Министерство иностранных Дел<br>Туркменистана</span>
+                            <span class="web-sites_IP-adress">https://www.mfa.gov.tm</span>
+                        </div>
+                    </div>
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/ministry-of-education.png" alt="ministry-of-education">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">Министерство образования<br>Туркменистана</span>
+                            <span class="web-sites_IP-adress">https://www.mincom.gov.tm</span>
+                        </div>
+                    </div>
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/airways.png" alt="airways">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">Агенство "Туркменховаёллары"</span>
+                            <span class="web-sites_IP-adress">https://caa.gov.tm</span>
+                        </div>
+                    </div>
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/railway.png" alt="railway">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">АООТ "Демирёллары"</span>
+                            <span class="web-sites_IP-adress">https://railway.gov.tm</span>
+                        </div>
+                    </div>
+                    <div class="web-sites_items-list">
+                        <img class="web-sites_img" src="./images/ashtu.png" alt="ashtu">
+                        <div class="web-sites_item_subtitles">
+                            <span class="web-sites_items-list_title">"Ашхабадская городская<br>телефонная сеть" АОЗТ</span>
+                            <span class="web-sites_IP-adress">https://astu.tm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="web-sites_items-button">
+                    <button class="web-sites_items-btn">ВСЕ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="static-features">
+        <div class="static-features_content">
+            <div class="static-features_title">
+                <span class="static-features_title-name">Статистика по сервисам</span>
+            </div>
+            <div class="static-features_rows">
+                <div class="static-features_row">
+                    <img class="static-features_img" src="./images/static-features_first-row-img.png" alt="static-features_first-row-img">
+                    <div class="static-features_items">
+                        <span class="static-features_first-item">Услуги предоставленные через портал за<br>все время</span>
+                        <span class="static-features_number">232669</span>
+                    </div>
+                </div>
+                <div class="static-features_row">
+                    <img class="static-features_img" src="./images/static-features_middle-row-img.png" alt="./images/static-features_middle-row-img">
+                    <div class="static-features_items">
+                        <span class="static-features_first-item">Количества пользователей портала за<br>февраль</span>
+                        <span class="static-features_number">1600</span>
+                    </div>
+                </div>
+                <div class="static-features_row">
+                    <img class="static-features_img" src="./images/static-features_last-row-img.png" alt="static-features_last-row-img">
+                    <div class="static-features_items">
+                        <span class="static-features_first-item">Количества пользователей портала</span>
+                        <span class="static-features_number">43534</span>
+                    </div>
+                </div>
+            </div>
+            <div class="number-services">
+                <span class="number-services_text">Число сервисов в портале</span>
+                <span class="number-services_desc">:42</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="last-block">
+            <div class="last-block_content">
+                <div class="last-block_boxes">
+                    <div class="last-block_box">
+                        <div class="box-first_wrapper">
+                            <img class="box-first_wrapper-img" src="./images/footer-logo.svg" alt="footer-logo">
+                            <span class="box-first_wrapper-title">e.gov.tm</span>
+                        </div>
+                        <div class="box-second_wrapper">
+                            <span class="box-second_wrapper-title">Портал Государственных услуг</span>
+                        </div>
+                        <div class="box-last_wrapper">
+                            <div class="box-last_wrapper-first-title">
+                                <span class="box-last_wrapper-first-title_name">Телефон:</span>
+                                <span class="box-last_wrapper-first-title_caption">+993 12 48 00 65</span>
+                            </div>
+                            <div class="box-last_wrapper-second-title">
+                                <span class="box-last_wrapper-first-title_name">Email:</span>
+                                <span class="box-last_wrapper-first-title_caption">e.gov.tm@sanly.tm</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last-block_box-middle">
+                        <span class="box-desc">Услуги</span>
+                        <span class="box-desc">Помощь</span>
+                        <span class="box-desc">Войти</span>
+                        <span class="box-desc">Регистрация</span>
+                    </div>
+                    <div class="last-block_box-end">
+                        <div class="last-block_column">
+                            <img class="last-block_column-first-img" src="./images/google-play_icon.svg" alt="google-play_icon">
+                            <img class="last-block_column-second-img" src="./images/google-play_code.jpg" alt="google-play_code">
+                        </div>
+                        <div class="last-block_column">
+                            <img class="last-block_column-first-img" src="./images/app-store_icon.svg" alt="app-store_icon">
+                            <img class="last-block_column-second-img" src="./images/app-store_code.jpg" alt="app-store_code">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="footer-end_title">
+                <span class="footer-end_title-name">Портал Государственных услуг,</span>
+                <span class="footer-end_title-slogan">2024</span>
+            </div>
+        </div>
+    </footer>
+    <div class="scroll-item">
+        <div class="scroll-item_block">
+            <div class="scroll-item_logo">
+                <img class="scroll-item_logo-img" src="./images/scroll-item_logo-first.png" alt="scroll-item_logo-first">
+            </div>
+            <div class="scroll-item_logo-second">
+                <img class="scroll-item_logo-img" src="./images/scroll-item_second.svg" alt="scroll-item_second">
+            </div>
+            <div class="scroll-item_last-wrapper">
+                <span class="scroll-item_title">48-00-65</span>
+                <div class="scroll-item_logo-last">
+                    <img class="scroll-item_logo-img" src="./images/scroll-item_last-real.svg" alt="scroll-item_last-real">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
